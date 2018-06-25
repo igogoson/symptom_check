@@ -33,7 +33,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                 <li><i class="fa fa-home" aria-hidden="true"></i>Baringo County</li>
                 <li class="second"><i class="fa fa-phone" aria-hidden="true"></i>+254 745 784 754</li>
 
-                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:baringoresponse@gmail.com">baringoresponse@gmail.com</a></li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:baringoresponse@gmail.com">Baringoresponse@gmail.com</a></li>
             </ul>
 
         </div>
