@@ -15,7 +15,7 @@
                     @endif
 
                         <div class="alert alert-success">
-                           <p>You are logged in as normal user</p>
+                           <p>You are logged in as normal user!!</p>
                         </div>
 
                 </div>
