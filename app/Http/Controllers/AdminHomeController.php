@@ -116,7 +116,9 @@ class AdminHomeController extends Controller
      */
     public function destroy($id)
     {
-        //
+        //Delete Items
+
+
         $user = User::findOrFail($id);
 
         $user->delete();
