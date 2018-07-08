@@ -148,19 +148,81 @@
                     <div class="card">
                         <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
                         <div class="card-block" style="color: red">
-                            <h4 class="card-title">Baringo town clinic</h4>
+                            <h4 class="card-title">Chesoi clinic</h4>
                             <p class="card-text"><strong>Mobile: </strong>+254 725 589658</p>
-                            <p class="card-text"><strong>Mobile: </strong>+254 702 548867</p>
                             <p class="card-text"><strong>Fax: </strong>+254 698 454245</p>
                         </div>
                     </div>
                     <div class="card">
                         <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
                         <div class="card-block" style="color: red">
-                            <h4 class="card-title">Bareswa clinic</h4>
-                            <p class="card-text"><strong>Mobile: </strong>+254 726 564854</p>
-                            <p class="card-text"><strong>Mobile: </strong>+254 703 369854</p>
+                            <h4 class="card-title">Chebara clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 756 454125</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 845 458546</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Chegilet clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 725 545484</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 845 452554</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Kabartongo clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 722 564584</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 845 5545141</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Iten clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 784 445254</p>
                             <p class="card-text"><strong>Fax: </strong>+254 845 454512</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Moiben clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 736 4541462</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 45 254542</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Loruk clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 784 4584575</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 865 4582165</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Maritin clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 726 564854</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 845 454512</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Ratat clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 712 454754</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 823 5645845</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top img-fluid" src="holder.js/100%x180/" alt="">
+                        <div class="card-block" style="color: red">
+                            <h4 class="card-title">Kimose clinic</h4>
+                            <p class="card-text"><strong>Mobile: </strong>+254 7235456</p>
+                            <p class="card-text"><strong>Fax: </strong>+254 845 5455255</p>
                         </div>
                     </div>
                 </div>

@@ -59,7 +59,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                     <span class="icon-bar"></span>
                 </button>
                 <div class="logo">
-                    <h3><a class="navbar-brand" href="index.html"><span>B</span>aringo Mobile Clinics<i class="fa fa-plus" aria-hidden="true"></i> <p>Quality Care 4U</p></a></h3>
+                    <h3><a class="navbar-brand" href="index.html"><span>B</span>aringo Doctor Everywhere<i class="fa fa-plus" aria-hidden="true"></i> <p>Quality Care 4U</p></a></h3>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                     <ul id="m_nav_list" class="m_nav menu__list">
                         <li class="m_nav_item menu__item menu__item--current" id="m_nav_item_1"> <a href="/" class="menu__link"> Home </a></li>
 
-                        <li class="m_nav_item menu__item" id="moble_nav_item_4"> <a href="/diagnosis" class="menu__link">Self Diagnosis  </a> </li>
+                        <li class="m_nav_item menu__item" id="moble_nav_item_4"> <a href="/diagnosis" class="menu__link">Self Diagnosis</a> </li>
 
 
                         <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="/contact" class="menu__link"> Contact </a> </li>
@@ -467,7 +467,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
         </div>
         <div class="w3_agileits_copy_right_social">
             <div class="col-md-6 agileits_w3layouts_copy_right">
-                <p>&copy; 2018 Mobile Clinics. All rights reserved | Design by <a href="">Peter Igogo</a></p>
+                <p>&copy; 2018 Mobile Clinics. All rights reserved | Design by <a href="">Larry</a></p>
             </div>
             <div class="col-md-6 w3_agile_copy_right">
                 <ul class="agileits_social_list">

@@ -11,36 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    if (Auth::guest()){
-
-        return view('layouts.mainsite.index');
-    }elseif(Auth::user()->admin == 0){
-        return view('layouts.mainsite.index');
-    }else{
-
-        $date = \Carbon\Carbon::now()->format('Y');
-        $today = \Carbon\Carbon::now()->format('Y-m-d');
-        $month  = \Carbon\Carbon::now()->format('m');
-
-        //Users
-        $UsersThisYear = \Illuminate\Support\Facades\DB::table('users')->whereYear('created_at', $date)->count();
-        $UsersToday = \Illuminate\Support\Facades\DB::table('users')->whereDate('created_at', $today)->count();
-        $UsersThisMonth = \Illuminate\Support\Facades\DB::table('users')->whereMonth('created_at', $month)->count();
 
 
-            $users = \App\User::all();
 
-            $times = \Illuminate\Support\Facades\DB::table('stats')->get();
-            return view('adminHome',compact('users','UsersToday','UsersThisYear','UsersThisMonth','times'));
-    }
-
-
-});
-
-Route::get('/contact', function () {
-    return view('layouts.mainsite.contact');
-});
 
 
 
@@ -58,6 +31,8 @@ Route::group(['middleware' => ['web','auth']], function (){
         return view('layouts.mainsite.diagnosis');
     });
 
+
+
     Route::get('/home', function (){
         if (Auth::user()->admin == 0){
             return view('layouts.mainsite.diagnosis');
@@ -67,3 +42,14 @@ Route::group(['middleware' => ['web','auth']], function (){
         }
     });
 });
+Route::get('/contact', function () {
+    return view('layouts.mainsite.contact');
+});
+
+Route::get('/', 'AdminHomeController@index');
+Route::get('/{id}', 'AdminHomeController@destroy')->name('admin.destroy');
+Route::get('/update/{id}', 'AdminHomeController@update')->name('admin.update');
+//Route::get('/contact', 'AdminHomeController@contact')->name('admin.contact');
+
+
+
