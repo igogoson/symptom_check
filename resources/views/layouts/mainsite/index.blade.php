@@ -71,6 +71,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 
                         <li class="m_nav_item menu__item" id="moble_nav_item_4"> <a href="/diagnosis" class="menu__link">Self Diagnosis</a> </li>
 
+                        <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="/clinic" class="menu__link"> Find clinics </a> </li>
+
 
                         <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="/contact" class="menu__link"> Contact </a> </li>
                     </ul>

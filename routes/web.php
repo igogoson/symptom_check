@@ -46,6 +46,12 @@ Route::get('/contact', function () {
     return view('layouts.mainsite.contact');
 });
 
+Route::get('/clinic', function () {
+
+    $clinics = \Illuminate\Support\Facades\DB::table('clinics')->get();
+    return view('layouts.mainsite.clinic',compact('clinics'));
+});
+
 Route::get('/', 'AdminHomeController@index');
 Route::get('/{id}', 'AdminHomeController@destroy')->name('admin.destroy');
 Route::get('/update/{id}', 'AdminHomeController@update')->name('admin.update');

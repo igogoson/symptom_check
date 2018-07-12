@@ -73,6 +73,7 @@
                         
                         <li class="m_nav_item menu__item" id="m_nav_item_1"> <a href="/" class="menu__link"> Home </a></li>
                         <li class="m_nav_item menu__item menu__item--current" id="moble_nav_item_6"> <a href="/diagnosis" class="menu__link"> Self Diagnosis </a> </li>
+                        <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="/clinic" class="menu__link"> Find a Clinic</a> </li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="/contact" class="menu__link"> Contact</a> </li>
 
                     </ul>

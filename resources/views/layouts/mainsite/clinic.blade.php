@@ -16,6 +16,7 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
     <link href="{{asset('dist/css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome icons -->
     <link href="{{asset('dist/css/font-awesome.css')}}" rel="stylesheet">
+    <link href="{{asset('dist/css/cl.clinic')}}" rel="stylesheet">
     <!-- //font-awesome icons -->
     <link href="//fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900" rel="stylesheet">
@@ -67,8 +68,8 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
                     <ul id="m_nav_list" class="m_nav menu__list">
                         <li class="m_nav_item menu__item" id="m_nav_item_1"> <a href="/" class="menu__link"> Home </a></li>
                         <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="/diagnosis" class="menu__link"> Self Diagnosis </a> </li>
-                        <li class="m_nav_item menu__item" id="moble_nav_item_6"> <a href="/clinic" class="menu__link"> Find clinics </a> </li>
-                        <li class="m_nav_item menu__item menu__item--current" id="moble_nav_item_6"> <a href="/contact" class="menu__link"> Contact </a> </li>
+                        <li class="m_nav_item menu__item menu__item--current" id="moble_nav_item_6"> <a href="/clinic" class="menu__link"> Find a Clinic </a> </li>
+                        <li class="m_nav_item menu__item" id="moble_nav_item_2"> <a href="/contact" class="menu__link"> Contact </a> </li>
                     </ul>
                 </nav>
 
@@ -79,88 +80,33 @@ Smartphone Compatible web template, free web designs for Nokia, Samsung, LG, Son
 </div>
 <!-- banner -->
 <!-- banner1 -->
-<div class="banner1 jarallax">
-    <div class="container">
-    </div>
-</div>
+<div class="container">
+    <!--team-2-->
+    <div class="row">
 
-<div class="services-breadcrumb">
-    <div class="container">
-        <ul>
-            <li><a href="/">Home</a><i>|</i></li>
-            <li>Contact</li>
-        </ul>
-    </div>
-</div>
-<!-- //banner1 -->
-<div class="banner-bottom" id="about">
-    <div class="container">
-        <h2 class="w3_heade_tittle_agile">Contact Us</h2>
-        <p class="sub_t_agileits">Get in touch...</p>
+        @foreach($clinics as $clinic)
+        <div class="col-lg-4">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{$clinic->name}}</h3>
+                </div>
+                <div class="panel-body">
 
-        <div class="contact-top-agileits">
-            <div class="col-md-4 contact-grid ">
-                <div class="contact-grid1 agileits-w3layouts">
-                    <i class="fa fa-location-arrow"></i>
-                    <div class="con-w3l-info">
-                        <h4>Address </h4>
-                        <p>2564-55564 <span>Baringo town.</span></p>
-                    </div>
-                    <div class="clearfix"></div>
+                    <p>{{$clinic->location}}</p>
+                    <hr>
+                    <p><span class="glyphicon glyphicon-phone"></span>{{$clinic->phone}}</p>
+                    <hr>
+                    <p><span class="glyphicon glyphicon-map-marker"></span><a style="color: green" href="https://goo.gl/maps/YWqarbJMTNv" target="_blank">View on map</a></p>
+
                 </div>
             </div>
-            <div class="col-md-4 contact-grid">
-                <div class="contact-grid2 w3">
-                    <i class="fa fa-phone" aria-hidden="true"></i>
-                    <div class="con-w3l-info">
-                        <h4>Call Us</h4>
-                        <p>+254 745 784754 <span>+254 458 541265</span></p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="col-md-4 contact-grid">
-                <div class="contact-grid3 w3l">
-                    <i class="fa fa-envelope"></i>
-                    <div class="con-w3l-info">
-                        <h4>Email</h4>
-                        <p><a href="mailto:info@example.com">baringoresponse@gmail.com</a>
-
-                        </p></div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-
         </div>
-        <div class="contact-form-aits">
-            <form action="#" method="post">
-                <input type="text" class="margin-right" name="Name" placeholder="Name" required="">
-                <input type="email" name="Email" placeholder="Email" required="">
-                <input type="text" class="margin-right" name="Phone Number" placeholder="Phone Number" required="">
-                <input type="text" name="Subject" placeholder="Subject" required="">
-                <textarea name="Message" placeholder="Message" required=""></textarea>
-                <div class="send-button agileits w3layouts">
-                    <button class="btn btn-primary">SEND MESSAGE</button>
-                </div>
-            </form>
-            <ul class="agileits_social_list two">
-                <li class="fallow"> Follow Us :</li>
-                <li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                <li><a href="#" class="w3_agile_rss"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-            </ul>
 
-        </div>
+            @endforeach
+
+
     </div>
-</div>
-
-<div class="map_agile">
-    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84010033106!2d-74.25819252532891!3d40.70583163828471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1475140387172" style="border:0"></iframe> -->
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1021308.5694252073!2d35.44281023689593!3d0.7388403053780502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1786cb6c7b9dc769%3A0x5b5f4b5a5e98c8e!2sBaringo+County!5e0!3m2!1sen!2ske!4v1528792596494" width="600" height="450"  style="border:0"></iframe>
-
+    <!--team-2-->
 
 </div>
 <!-- footer -->
